@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title></title>
+      <link rel="stylesheet" href="style_company.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body vlink="#1E1E1E">
+      <div class="wrapper">
+          
+            <header>
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              Naukri Bazar
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="index_1.html"><img src="p.png" class="aa"> Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="company_add.html">Recruit</a></li>
+                  
+                                    <div class="a">
+                                    
+                                    <li ><a href="LogoutServlet">LOGOUT</a></li></div>
+                              </ul>
+                        </div>
+                  </nav>
+                  
+            </header>
+           <form action="companyServlet" method="post">
+            <div class="content">
+                  <div class="info">
+                        <div class="infoo">
+                        <div id="name">Company's Name:<input type="text" name="cn" class="aq"></div>
+                        <div id="from">Company's Website:<input type="text" name="cw" class="aq"></div>
+                        <div id="phone">Company's Number:<input type="text" name="cno" class="aq"></div></div>
+                        <div id="email">  Email: <input type="text" name="em" class="aq"></div></div>
+                        
+
+                        </div>
+                        
+                  </div>
+                  <div>
+                        <div class="left"><span style="font-size: 25px; font-weight: bold; margin-top: 30px; margin-left: 10px;">Quick Links:</span>
+                            <br><br><span style="font-weight: normal; font-size: 18px; font-family: sans-serif; color: rgba(0,0,0,0.8);">
+                             <div> <a href="#key">Requirments</a></div><br>
+                           <div>   <a href="#Pre">Salary Offered</a></div><br>
+                            
+                           <div>   <a href="#Pers">Company's Details</a></div><br>
+                             <div> <a href="#pro">Technology Company Working on</a></div>
+                       </span>
+                       </div>
+                     
+                        <div class="right" style="color: #464646;">
+                              <div id="a"><a name="key">Required Skills<a><br><br>
+                                    <input type="text" name="R_s" class="t1" placeholder="Enter Your Requirments"></div>
+                              <div id="b"><a name="Pre" >No. of Employ Wanted</a><br><br>
+                              <input type="text" name="ew" class="t1" placeholder="Enter No of Employ Wanted"></div>
+                              <div id="c"><a name="Edu">Education Required</a>
+                              <br><br><span style="font-weight: normal; font-size: 16px;">
+                              10th:
+                              <input type="text" name="ten" class="t1" placeholder="Enter how many 10th CGPA/Percentage required for recruitment"><br><br>
+                              12th:
+                              <input type="text" name="twelve" class="t1" placeholder="Enter how many 12th CGPA/Percentage required for recruitment"><br><br>
+                              B.E.:
+                              <input type="text" name="bt" class="t1" placeholder="Enter how many Degree's CGPA/Percentage required for recruitment">
+                        </span>
+                                    </div>
+                              <div id="d"><a name="Pers">Company's Details</a><br><br><span style="font-weight: normal; font-size: 12px;">
+                              Joining Wanted before<br><br>
+                              <input type="text" name="dob" class="t2" placeholder="Enter Date">
+                              <br><br>
+                              Address<br><br>
+                              <textarea rows = "8" cols = "90" name = "description">
+            Enter Company's Address
+         </textarea>
+                        </span>
+                              </div>
+                              <div id="e">
+                                    <button type="submit" style="padding: 17px 70px; margin-top: 30px; margin-left: 270px;background-color: #341EFF ; color:rgba(255,255,255,1); border:none;">submit</button>
+
+                              </div>
+
+                                                            
+                        </div>
+                  </div>
+                                        </form>
+
+            </div>
+      </div>
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+
+</body>
+</html>

@@ -1,0 +1,309 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+
+}
+
+header {
+      width: 100%;
+      height: 100vh;
+      background: url(slide2.jpg);
+      background-repeat:no-repeat ;
+      height: 90px;
+      background-size: cover;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+
+}
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      margin: 16px 46px;
+      color: #fff;
+      margin-left: 60px;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      z-index: 10;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding-left: 10px;
+      text-align: right;
+      margin: 0;
+      padding-right: 50px;
+      transition: 1s;
+}
+.a{
+      float: right;
+      overflow: hidden;
+      margin-left: 510px;
+}
+.az{  
+      height: 25px;
+      width: 70px;
+      text-align: center;
+background-color: transparent;
+border: 1px solid white;
+}
+
+nav.black ul {
+      background: #000;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 15px;;
+}
+.aa{
+      width: 16px;
+      height: 16px;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+.left{
+      margin-left: 30px;
+      position: relative;
+      margin-top: 0px;
+      border: 1px solid rgba(0,0,0,0.2);
+      height: 400px;
+      width: 350px;
+      border-radius: 4px;
+      float: left;
+      background-color: rgba(255,255,255,0.8);
+      box-shadow: 0px 0px 2px;
+
+}
+.leftt{
+      margin-left: 30px;
+      position: absolute;
+      margin-top: 420px;
+      border: 1px solid rgba(0,0,0,0.2);
+      height: 250px;
+      width: 350px;
+      border-radius: 4px;
+      float: left;
+      background-color: rgba(255,255,255,0.8);
+      box-shadow: 0px 0px 2px;
+}
+.lefttt{
+
+      margin-left: 30px;
+      position: absolute;
+      margin-top: 690px;
+      border: 1px solid rgba(0,0,0,0.2);
+      height: 250px;
+      width: 350px;
+      border-radius: 4px;
+      float: left;
+      background-color: rgba(255,255,255,0.8);
+      box-shadow: 0px 0px 2px;
+}
+.right{
+      margin-left: 450px;
+      position:absolute;
+      margin-top: 0px;
+      border: 1px solid rgba(0,0,0,0.2);
+      background-color: rgba(255,255,255,0.8);
+      border-radius: 20px;
+
+      height: 140px;
+       width:800px;
+       box-shadow: 0px 1px 5px;  
+       
+}
+.right1{
+      float: left;
+     position: absolute;
+      margin-top: 20px;
+      margin-left: 20px;
+}
+.r1{
+position: absolute;
+margin-top: 30px;
+font-weight: bold;
+}
+.r2{
+      position: static;
+      margin-top: 10px;
+      margin-left: 500px;
+
+}
+.r22{
+      color: rgba(0,0,0,0.5);
+font-size: 18px;
+}
+.r3{
+      position: absolute;
+      left: 500px;
+      top: 40px;
+}
+.rightt{
+      margin-left: 450px;
+       position:absolute;
+      margin-top: 180px;
+      border: 1px solid rgba(0,0,0,0.2);
+      background-color: rgba(255,255,255,0.8);
+      border-radius: 20px;
+
+      height: 140px;
+       width:800px;
+        box-shadow: 0px 1px 5px;  
+     
+
+}
+.righttt{
+      margin-left: 450px;
+      position:absolute;
+      margin-top: 360px;
+      border: 1px solid rgba(0,0,0,0.2);
+      background-color: rgba(255,255,255,0.8);
+      border-radius: 20px;
+
+      height: 140px;
+       width:800px;
+        box-shadow: 0px 1px 5px;  
+
+}
+.rightttt{
+        margin-left: 450px;
+      position:absolute;
+      margin-top: 540px;
+      border: 1px solid rgba(0,0,0,0.2);
+      background-color: rgba(255,255,255,0.8);
+      border-radius: 20px;
+
+      height: 140px;
+       width:800px;
+        box-shadow: 0px 1px 5px; 
+
+}
+.righttttt{
+        margin-left: 450px;
+      position:absolute;
+      margin-top: 720px;
+      border: 1px solid rgba(0,0,0,0.2);
+      background-color: rgba(255,255,255,0.8);
+      border-radius: 20px;
+
+      height: 140px;
+       width:800px;
+        box-shadow: 0px 1px 5px; 
+
+}
+.left1{
+      position: absolute;
+      margin-left: 40px;
+      margin-top: 30px;
+
+}
+
+.t1,.t2{
+      position: absolute;
+      top: 50px;
+      left: 0px;
+      height: 30px;
+      width: 250px;
+
+}
+.t2{
+      top: 210px;
+}
+#l{
+      position: relative;
+      top: 10px;
+}
+#ll{
+      position: absolute;
+      top: 80px;
+}
+
+.btn{
+      padding: 10px 25px;
+      border-radius: 4px;
+      border: none;
+      background-color: rgba(115,80,186,1);
+      color: rgba(255,255,255,0.8);
+      font-weight: bold;
+      font-family: sans-serif;
+
+      position: absolute;
+      margin-top: 150px;
+      left: 0px;
+}
+@media(max-width: 786px) {
+nav{
+      z-index: 1;
+}
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
+}

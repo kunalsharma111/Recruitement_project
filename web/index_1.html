@@ -1,0 +1,156 @@
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title></title>
+      <link rel="stylesheet" href="style_1.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+</head>
+<body>
+      <div class="wrapper">
+            <header>
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo" >
+                              <font style="color: black;"> Naukri</font><font style="font-size: 30px;">Bazar</font><font style="color: black;">.org </font>
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="index_1.html"><img src="p.png" class="aa"> Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="company_add.html">Recruit</a></li>
+                  
+                                    <div class="a">
+
+                                    <li ><a href="LogoutServlet">Logout</a></li>
+                                    <li >
+                                        <a href="cv_apply.html"> <div class="pp1">Register CV</div></a>
+                                    </li>
+                                    </div>
+                              </ul>
+                        </div>
+                  </nav>
+                  <center>
+                  <div class="form1">
+                        <font id="xx1">
+                  Your Dream Job is Waiting
+                  <br><b style="font-size: 30px; font-weight: 20px;">Biggest Job Providing Platform</b></font>
+                  <div class="form11">
+                        <form action="searchServlet" method="post">
+                              <frameset>
+                                    <div class="ii">
+                                          <font id="x"><img class="x1" src="s.png">
+                                    Search Job</font>
+                                    <input type="text" name="t1" id="i1">
+                                    <font id="y">
+                                          <img src="l.png"
+                                           class="x1">
+                                    Location</font>
+                                    <input type="text" name="t2" id="i2">
+                                
+                                    <button type="submit" class="btn">Search</button>
+                              </div>
+                              </frameset>
+                        </form>
+                  </div>
+            </div>
+      </center>
+            </header>
+
+
+
+
+
+
+
+
+            <div class="content">
+                  <p class="pp">
+                        Explore Categories
+                  </p>
+                  <hr class="v">
+
+            </div>
+            <div class="dd1">
+            <div class="d1">
+                  <img src="fs.png" class="d1i">
+                  <font class="d11"><br>Full Stack Devolper</font>
+            </div>
+            <div class="d2">
+                  <img src="fe.png" class="d2i">
+                  <font class="d11"><br>Front End Devolper</font>
+            </div>
+            <div class="d3">
+                   <img src="ds.png" class="d3i">
+                   <font class="d13"><br>Algorithm Devolper</font>
+            </div>
+            <div class="d4">
+                  <img src="be.png" class="d3i">
+                  <font class="d13"><br>Back End Devolper</font>
+            </div>
+      </div>
+      <div class="dd2">
+            <div class="d5">
+                  <img src="jd.png" class="d1i">
+                  <font class="d11"><br>&nbsp; &nbsp; &nbsp;Java Devolper</font>
+            </div>
+            <div class="d6"><img src="tt.png" class="d3i">
+                  <font class="d13"><br>&nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; &nbsp;Tester</font></div>
+            <div class="d7">
+                  <img src="wd.png" class="d3i">
+                  <font class="d13"><br>Word Press Devolper</font>
+            </div>
+            <div class="d8"> <img src="qa.png" class="d1i">
+                  <font class="d13"><br>&nbsp; &nbsp;Quality Analysis</font></div>
+      </div>
+          <form action="searchAllServlet" method="post">
+            <button type="submit" class="btnn">Explore More</button>
+          </form>
+
+
+
+<div class="bottom"><p class="xxx">
+   Your Dream Jobs are Awaiting
+      </p>
+<p class="b">Over 1 million interactions, 50,000 success stories Make yours now.</p>
+<button class="bt">Search Jobs</button>
+<button class="btt">Apply Jobs Now</button>
+</div>
+      
+      </div>
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+
+</body>
+</html>

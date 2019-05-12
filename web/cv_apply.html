@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .num1{
+            border: none;
+            background: transparent;
+            border-bottom: 2px solid white;
+            color:whie;
+            margin-left: 10px;
+        }
+    </style>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title></title>
+      <link rel="stylesheet" href="style_cv.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body vlink="#1E1E1E">
+      <div class="wrapper">
+            <header>
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              Naukri Bazar
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="index_1.html"><img src="p.png" class="aa"> Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="company_add.html">Recruit</a></li>
+                  
+                                    <div class="a">
+
+                                    <li ><a href="LogoutServlet">LOGOUT</a></li></div>
+                              </ul>
+                        </div>
+                  </nav>
+                  
+            </header>
+          <form action="cvServlet" method="post">
+            <div class="content">
+                  <div class="info">
+                        <div class="infoo">
+                            
+                            <div id="name">Name: <input type="text" name="name1" class="num1"></div>
+                        <div id="from">From: <input type="text" name="from" class="num1"></div>
+                        <div id="phone">Phone:<input type="text" name="phno" class="num1"></div>
+                        <div id="email">Email: <input type="text" name="email" class="num1"></div>
+                        
+
+                        </div>
+                        
+                  </div>
+                  <div>
+                        <div class="left"><span style="font-size: 25px; font-weight: bold; margin-top: 30px; margin-left: 10px;">Quick Links:</span>
+                            <br><br><span style="font-weight: normal; font-size: 18px; font-family: sans-serif; color: rgba(0,0,0,0.8);">
+                             <div> <a href="#key">Key Skills</a></div><br>
+                           <div>   <a href="#Pre">Previous Employment</a></div><br>
+                             <div> <a href="#Edu">Education</a></div><br>
+                           <div>   <a href="#Pers">Personal Details</a></div><br>
+                             <div> <a href="#pro">Projects</a></div>
+                       </span>
+                       </div>
+
+                        <div class="right" style="color: #464646;">
+                              <div id="a"><a name="key">Key Skills<a><br><br>
+                                    <input type="text" name="k_s" class="t1" placeholder="Enter Your Key Skills" ></div>
+                              <div id="b"><a name="Pre" >Previous Employment</a><br><br>
+                              <input type="text" name="pre1" class="t1" placeholder="Enter Your Previous Employment Details" ></div>
+                              <div id="c"><a name="Edu">Education</a>
+                              <br><br><span style="font-weight: normal; font-size: 16px;">
+                              10th:
+                              <input type="text" name="ten" class="t1" placeholder="Enter Your 10th CGPA/Percentage"><br><br>
+                              12th:
+                              <input type="text" name="twelve" class="t1" placeholder="Enter Your 12th CGPA/Percentage"><br><br>
+                              B.E.:
+                              <input type="text" name="bt" class="t1" placeholder="Enter Your B.E. CGPA/Percentage">
+                        </span>
+                                    </div>
+                              <div id="d"><a name="Pers">Personal Details</a><br><br><span style="font-weight: normal; font-size: 12px;">
+                              Date of birth<br>
+                              <input type="text" name="dob" class="t2" placeholder="Enter Your DoB">
+                              <br>
+                              Gender<br>
+                              <input type="text" name="g" class="t2" placeholder="Enter Your Gender">
+                              <br>
+                              Address<br>
+                              <textarea rows = "8" cols = "90" name = "description">
+            Enter your Address
+         </textarea>
+                        </span>
+                              </div>
+                              <div id="e"><a name="pro">Projects</a>
+                              <br><br>
+                                    <input type="text" name="k_s" class="t1">
+                                    <button style="padding: 12px 24px; margin-top: 0px; margin-left: 20px;background-color: #341EFF ; color:rgba(255,255,255,1); border:none;">submit</button>
+
+                              </div>
+
+                                                            
+                        </div>
+                  </div>
+                  
+            </div>
+          </form>
+      </div>
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+
+</body>
+</html>
